@@ -9,7 +9,6 @@ win32_pap.cpp
 #include <iostream>
 #include <stdio.h>
 #include <windows.h>
-//#include "win32_xi.h"
 
 void *ProgramMemory;
 uint64_t TotalMemorySize;
