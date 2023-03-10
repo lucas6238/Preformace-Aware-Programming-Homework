@@ -21,12 +21,6 @@ struct debug_read_file_data
     void *MemoryLocation;
 };
 
-struct reg_code
-{
-    char A;
-    char B;
-};
-
 //reg[16][2] gave me an overflow error...
 
 char reg[16][4] = 
