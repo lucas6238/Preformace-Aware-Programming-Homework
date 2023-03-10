@@ -125,7 +125,6 @@ int main(int argc, char *argv[] )
 {
     
     TotalMemorySize = Kilobytes(1);
-    //entire primary screen including taskbar
     ProgramMemory = VirtualAlloc(0,TotalMemorySize,
                                  MEM_COMMIT|MEM_RESERVE,
                                  PAGE_READWRITE);
